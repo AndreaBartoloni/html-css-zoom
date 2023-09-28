@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: orangered;
+    height: 5vh;
+}
+.contenitore{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    
+}
+.contenitore-immagine{
+    margin: 5px 5px 5px 5px;
+    flex-grow: initial;
+    
+}
+.immagine{
+    background-image: url(https://picsum.photos/300/200);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 193px;
+    position: relative;
+}
+.info{
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    opacity:0.5;
+    padding: 5px;
+}
+.info > img{
+    height: 20px;
+    vertical-align: middle;
+}
+footer{
+    background-color:orangered;
+    height: 5vh;
+}
